@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alan Moreno - Técnico en Informática</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #40E0D0;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #9932CC;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+        footer {
+            background-color: #9932CC;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Alan Moreno</h1>
+        <p>Técnico en Informática - Arreglo de Celulares y Limpieza de Ordenadores</p>
+    </header>
+    <nav>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <section id="sobre-mi">
+        <div class="container">
+            <h2>Sobre mí</h2>
+            <p>Hola, soy Alan Moreno. Me dedico al arreglo de celulares y la limpieza de ordenadores. Estoy en formación para convertirme en técnico en informática.</p>
+        </div>
+    </section>
+    <section id="servicios">
+        <div class="container">
+            <h2>Servicios</h2>
+            <ul>
+                <li>Arreglo de celulares</li>
+                <li>Limpieza de ordenadores</li>
+                <li>Asesoría en informática</li>
+            </ul>
+        </div>
+    </section>
+    <section id="contacto">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme a través del siguiente correo electrónico: <a href="mailto:alan@example.com">alan@example.com</a></p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Alan Moreno</p>
+    </footer>
+</body>
+</html>
